@@ -1,5 +1,5 @@
+import '@guoyunhe/prism-theme-github/github-light.css';
 import { StrictMode } from 'react';
-import { DocProvider } from 'react-doc-ui';
 import { createRoot } from 'react-dom/client';
 import App from './App';
 
@@ -9,9 +9,7 @@ if (rootElem) {
   const root = createRoot(rootElem);
   root.render(
     <StrictMode>
-      <DocProvider>
-        <App />
-      </DocProvider>
+      <App />
     </StrictMode>
   );
 }
