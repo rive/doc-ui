@@ -3,7 +3,7 @@
   "compilerOptions": {
     "checkJs": false,
     "paths": {
-      "react-doc-ui": ["./src"]
+      "@rive/react-doc-ui": ["./src"]
     },
     "types": [
       "node",

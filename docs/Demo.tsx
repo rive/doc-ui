@@ -1,4 +1,4 @@
-import { Playground } from 'react-doc-ui';
+import { Playground } from '@rive/react-doc-ui';
 
 export default function Demo() {
   return (
