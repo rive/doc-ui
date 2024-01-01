@@ -1,0 +1,5 @@
+.rrdu-toolbar {
+  border-top: 1px solid var(--rrdu-color-border);
+  display: flex;
+  background-color: var(--rrdu-color-toolbar-bg);
+}

@@ -2,6 +2,7 @@ import cn from 'classnames';
 import { Highlight, Language } from 'prism-react-renderer';
 import { CSSProperties } from 'react';
 import './CodeBlock.css';
+import { CopyButton } from './private/CopyButton';
 import { Toolbar } from './private/Toobar';
 
 export interface CodeBlockProps {
@@ -33,7 +34,7 @@ export function CodeBlock({ code, children, language, className }: CodeBlockProp
         )}
       </Highlight>
       <Toolbar>
-        <button>Copy</button>
+        <CopyButton code={code} />
       </Toolbar>
     </div>
   );
