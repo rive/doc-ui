@@ -1,4 +1,4 @@
-# @rive/react-live-playground
+# @rive/react-doc-ui
 
 Playground UI to wrap React Live.
 
@@ -8,13 +8,13 @@ Playground UI to wrap React Live.
 ## Install
 
 ```bash
-npm install --save @rive/react-live-playground
+npm install --save @rive/react-doc-ui
 ```
 
 ## Usage
 
 ```jsx
-import { Playground } from '@rive/react-live-playground';
+import { Playground } from '@rive/react-doc-ui';
 
 <Playground code="<div>Hello, World!</div>" />;
 ```

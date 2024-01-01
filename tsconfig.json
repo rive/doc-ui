@@ -1,14 +1,9 @@
 {
-  "extends": [
-    "@tsconfig/vite-react/tsconfig.json",
-    "@tsconfig/strictest/tsconfig.json"
-  ],
+  "extends": ["@tsconfig/vite-react/tsconfig.json", "@tsconfig/strictest/tsconfig.json"],
   "compilerOptions": {
     "checkJs": false,
     "paths": {
-      "react-live-playground": [
-        "./src"
-      ]
+      "react-doc-ui": ["./src"]
     },
     "types": [
       "node",

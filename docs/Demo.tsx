@@ -1,9 +1,9 @@
-import { StaticDemo } from 'react-live-playground';
+import { Playground } from 'react-doc-ui';
 
 export default function Demo() {
   return (
     <div>
-      <StaticDemo code="<div>Hello, World!</div>" />
+      <Playground code="<div style={{ color: 'red' }}>Hello, World!</div>" />
     </div>
   );
 }
