@@ -1,9 +1,9 @@
 import { render, screen } from '@testing-library/react';
-import { ReactLivePlayground } from '.';
+import { StaticDemo } from '.';
 
 describe('<ReactLivePlayground/>', () => {
   it('render', async () => {
-    render(<ReactLivePlayground>Hello</ReactLivePlayground>);
+    render(<StaticDemo>Hello</StaticDemo>);
 
     const elem = await screen.findByText('Hello');
 

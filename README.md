@@ -1,15 +1,20 @@
-# react-live-playground
+# @rive/react-live-playground
+
+Playground UI to wrap React Live.
+
+- [ ] Live code editing
+- [ ] Mobile, tablet, desktop preview switch
 
 ## Install
 
 ```bash
-npm i react-live-playground
+npm install --save @rive/react-live-playground
 ```
 
 ## Usage
 
-```ts
-import { hello } from 'react-live-playground';
+```jsx
+import { Playground } from '@rive/react-live-playground';
 
-hello('world');
+<Playground code="<div>Hello, World!</div>" />;
 ```

@@ -1,9 +1,9 @@
-import { ReactLivePlayground } from 'react-live-playground';
+import { StaticDemo } from 'react-live-playground';
 
 export default function Demo() {
   return (
     <div>
-      <ReactLivePlayground>Hello</ReactLivePlayground>
+      <StaticDemo code="<div>Hello, World!</div>" />
     </div>
   );
 }
