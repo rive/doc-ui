@@ -6,5 +6,5 @@ export interface ToolbarProps {
 }
 
 export function Toolbar({ children }: ToolbarProps) {
-  return <div>{children}</div>;
+  return <div className="rrdu-toolbar">{children}</div>;
 }

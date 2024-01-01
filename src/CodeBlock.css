@@ -1,1 +1,11 @@
-import 'prism-theme-github/github-light.css';
+.rrdu-code-block {
+  border: 1px solid var(--rrdu-color-border);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.rrdu-code-block .prism-code {
+  margin: 0;
+  border-radius: 0;
+}
