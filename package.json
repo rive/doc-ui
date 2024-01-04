@@ -1,9 +1,12 @@
 {
   "name": "@rive/react-doc-ui",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "React components to render document",
   "keywords": [
-    "react"
+    "react",
+    "doc",
+    "mdx",
+    "react-live"
   ],
   "homepage": "https://github.com/rive/react-doc-ui#readme",
   "bugs": {

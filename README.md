@@ -1,8 +1,8 @@
 # @rive/react-doc-ui
 
-Playground UI to wrap React Live.
+React components to render document.
 
-- [ ] Live code editing
+- [ ] React live playground
 - [ ] Mobile, tablet, desktop preview switch
 
 ## Install
