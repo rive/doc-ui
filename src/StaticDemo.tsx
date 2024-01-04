@@ -7,7 +7,7 @@ export interface StaticDemoProps {
 
 export function StaticDemo({ code }: StaticDemoProps) {
   return (
-    <LiveProvider code={code} theme={false}>
+    <LiveProvider code={code} theme={{ plain: {}, styles: [] }}>
       <LiveEditor />
       <LiveError />
       <LivePreview />

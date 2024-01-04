@@ -21,3 +21,7 @@
   height: 1.1em;
   margin: -0.1em 0.5em -0.1em 0;
 }
+
+.rrdu-tool-button-success {
+  color: var(--rrdu-color-success);
+}
