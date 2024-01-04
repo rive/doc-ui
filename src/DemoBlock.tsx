@@ -12,11 +12,19 @@ export interface DemoBlockProps {
   language?: 'jsx' | 'tsx';
   filename?: string | undefined;
   code: string;
+  disablePadding?: boolean;
   className?: string;
   style?: CSSProperties;
 }
 
-export function DemoBlock({ code, filename, language = 'jsx', className, style }: DemoBlockProps) {
+export function DemoBlock({
+  code,
+  filename,
+  language = 'jsx',
+  disablePadding,
+  className,
+  style,
+}: DemoBlockProps) {
   return (
     <div className={cn('rrdu-demo-block', className)} style={style}>
       <Toolbar>
@@ -31,7 +39,12 @@ export function DemoBlock({ code, filename, language = 'jsx', className, style }
         enableTypeScript={language === 'tsx'}
       >
         <div className="rrdu-demo-block-main">
-          <LivePreview className="rrdu-demo-block-preview" />
+          <LivePreview
+            className={cn(
+              'rrdu-demo-block-preview',
+              disablePadding && 'rrdu-demo-block-preview-disable-padding'
+            )}
+          />
           <div className="rrdu-demo-block-develop">
             <LiveError className="rrdu-demo-block-error" />
             <LiveEditor className="rrdu-demo-block-editor" />
