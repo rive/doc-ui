@@ -1,4 +1,4 @@
-import { CodeBlock, Playground } from '@rive/react-doc-ui';
+import { CodeBlock, DemoBlock } from '@rive/react-doc-ui';
 
 export default function Demo() {
   return (
@@ -17,7 +17,9 @@ export default function Demo() {
       <CodeBlock language="tsx" filename="app.tsx" code="<div>{children}</div>" />
       <CodeBlock language="json" filename="package.json" code={`{ "name": "foobar" }`} />
 
-      <Playground code="<div style={{ color: 'red' }}>Hello, World!</div>" />
+      <h1>DemoBlock</h1>
+
+      <DemoBlock code="<div style={{ color: 'red' }}>Hello, World!</div>" />
     </div>
   );
 }
