@@ -15,7 +15,7 @@ export function Playground({ code, className, style }: PlaygroundProps) {
       <LiveProvider
         code={code}
         // disable the built-in theme of react-prism-renderer
-        theme={{ styles: [] }}
+        theme={{ plain: {}, styles: [] }}
         enableTypeScript
       >
         <LiveEditor />
