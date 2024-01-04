@@ -15,6 +15,7 @@ export default function Demo() {
       <CodeBlock language="jsx" filename="app.jsx" code="<div>{children}</div>" />
       <CodeBlock language="ts" filename="hello.ts" code="function foobar() {}" />
       <CodeBlock language="tsx" filename="app.tsx" code="<div>{children}</div>" />
+      <CodeBlock language="json" filename="package.json" code={`{ "name": "foobar" }`} />
 
       <Playground code="<div style={{ color: 'red' }}>Hello, World!</div>" />
     </div>
