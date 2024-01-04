@@ -1,5 +1,6 @@
 :root {
-  --rrdu-color-border: #c8c8c8;
-  --rrdu-color-toolbar-bg: #f8f8f8;
+  --rrdu-color-border: #d8d8d8;
+  --rrdu-color-text: #333333;
+  --rrdu-color-toolbar-bg: #f0f0f0;
   --rrdu-color-success: #198754;
 }

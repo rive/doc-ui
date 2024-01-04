@@ -1,4 +1,5 @@
 .rrdu-code-block {
+  color: var(--rrdu-color-text);
   border: 1px solid var(--rrdu-color-border);
   border-radius: 8px;
   overflow: hidden;

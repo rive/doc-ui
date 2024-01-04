@@ -1,0 +1,29 @@
+.rrdu-file-name {
+  padding: 0 7px;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.rrdu-file-name-icon {
+  display: inline-block;
+  padding: 0 4px;
+  border-radius: 3px;
+  background-color: var(--rrdu-color-text);
+  color: var(--rrdu-color-toolbar-bg);
+  text-transform: uppercase;
+  margin-right: 0.5em;
+}
+
+.rrdu-file-name-icon-html {
+  background: #e24c26;
+}
+
+.rrdu-file-name-icon-css {
+  background: #0477bb;
+}
+
+.rrdu-file-name-icon-js {
+  background: #ebd64d;
+  color: #323230;
+}
