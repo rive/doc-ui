@@ -17,13 +17,22 @@
 
 .rrdu-file-name-icon-html {
   background: #e24c26;
+  color: #fbfbfb;
 }
 
 .rrdu-file-name-icon-css {
   background: #0477bb;
+  color: #fbfbfb;
 }
 
-.rrdu-file-name-icon-js {
+.rrdu-file-name-icon-js,
+.rrdu-file-name-icon-jsx {
   background: #ebd64d;
   color: #323230;
+}
+
+.rrdu-file-name-icon-ts,
+.rrdu-file-name-icon-tsx {
+  background: #2f75c1;
+  color: #fbfbfb;
 }
