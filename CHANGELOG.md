@@ -1,9 +1,9 @@
 # Changelog
 
-## 1.0.0 - 2024-01-01
+## 1.0.0 - 2024-01-07
 
-- Added something
-- Changed something
-- Fixed something
-- Removed something
-- Deprecated something
+- Added `<Alert/>` component
+- Added `<CodeBlock/>` component
+- Added `<CodeInline/>` component
+- Added `<DemoBlock/>` component
+- Added `<Table/>` component
