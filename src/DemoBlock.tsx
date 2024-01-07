@@ -26,7 +26,7 @@ export function DemoBlock({
   style,
 }: DemoBlockProps) {
   return (
-    <div className={cn('rrdu-demo-block', className)} style={style}>
+    <div className={cn('rive-demo-block', className)} style={style}>
       <Toolbar>
         <FileName language={language} filename={filename} />
         <Spacer />
@@ -38,16 +38,16 @@ export function DemoBlock({
         theme={{ plain: {}, styles: [] }}
         enableTypeScript={language === 'tsx'}
       >
-        <div className="rrdu-demo-block-main">
+        <div className="rive-demo-block-main">
           <LivePreview
             className={cn(
-              'rrdu-demo-block-preview',
-              disablePadding && 'rrdu-demo-block-preview-disable-padding'
+              'rive-demo-block-preview',
+              disablePadding && 'rive-demo-block-preview-disable-padding'
             )}
           />
-          <div className="rrdu-demo-block-develop">
-            <LiveError className="rrdu-demo-block-error" />
-            <LiveEditor className="rrdu-demo-block-editor" />
+          <div className="rive-demo-block-develop">
+            <LiveError className="rive-demo-block-error" />
+            <LiveEditor className="rive-demo-block-editor" />
           </div>
         </div>
       </LiveProvider>

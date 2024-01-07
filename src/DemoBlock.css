@@ -1,31 +1,31 @@
-.rrdu-demo-block {
-  color: var(--rrdu-color-text);
-  border: 1px solid var(--rrdu-color-border);
+.rive-demo-block {
+  color: var(--rive-color-text);
+  border: 1px solid var(--rive-color-border);
   border-radius: 8px;
   overflow: hidden;
   margin-bottom: 1rem;
 }
 
-.rrdu-demo-block .prism-code {
+.rive-demo-block .prism-code {
   margin: 0;
   border-radius: 0;
   padding: 8px 10px;
 }
 
-.rrdu-demo-block-preview {
-  border-bottom: 1px solid var(--rrdu-color-border);
+.rive-demo-block-preview {
+  border-bottom: 1px solid var(--rive-color-border);
   padding: 10px;
   background: #f0f8ff;
   margin: 0;
 }
 
-.rrdu-demo-block-preview-disable-padding {
+.rive-demo-block-preview-disable-padding {
   padding: 0;
 }
 
-.rrdu-demo-block-error {
+.rive-demo-block-error {
   padding: 10px;
-  background: var(--rrdu-color-danger-bg);
+  background: var(--rive-color-danger-bg);
   margin: 0;
-  color: var(--rrdu-color-danger);
+  color: var(--rive-color-danger);
 }

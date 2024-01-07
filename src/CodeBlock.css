@@ -1,12 +1,12 @@
-.rrdu-code-block {
-  color: var(--rrdu-color-text);
-  border: 1px solid var(--rrdu-color-border);
+.rive-code-block {
+  color: var(--rive-color-text);
+  border: 1px solid var(--rive-color-border);
   border-radius: 8px;
   overflow: hidden;
   margin-bottom: 1rem;
 }
 
-.rrdu-code-block .prism-code {
+.rive-code-block .prism-code {
   margin: 0;
   border-radius: 0;
   padding: 8px 10px;

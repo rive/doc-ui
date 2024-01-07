@@ -1,8 +1,8 @@
 :root {
-  --rrdu-color-border: #d8d8d8;
-  --rrdu-color-text: #333333;
-  --rrdu-color-toolbar-bg: #f0f0f0;
-  --rrdu-color-success: #198754;
-  --rrdu-color-danger: #dc3545;
-  --rrdu-color-danger-bg: #f3ccd0;
+  --rive-color-border: #d8d8d8;
+  --rive-color-text: #333333;
+  --rive-color-toolbar-bg: #f0f0f0;
+  --rive-color-success: #198754;
+  --rive-color-danger: #dc3545;
+  --rive-color-danger-bg: #f3ccd0;
 }

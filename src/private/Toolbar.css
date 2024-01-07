@@ -1,12 +1,12 @@
-.rrdu-toolbar {
+.rive-toolbar {
   display: flex;
-  background-color: var(--rrdu-color-toolbar-bg);
+  background-color: var(--rive-color-toolbar-bg);
 }
 
-.rrdu-toolbar:first-child {
-  border-bottom: 1px solid var(--rrdu-color-border);
+.rive-toolbar:first-child {
+  border-bottom: 1px solid var(--rive-color-border);
 }
 
-.rrdu-toolbar:last-child {
-  border-top: 1px solid var(--rrdu-color-border);
+.rive-toolbar:last-child {
+  border-top: 1px solid var(--rive-color-border);
 }

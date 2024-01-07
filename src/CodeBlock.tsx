@@ -17,7 +17,7 @@ export interface CodeBlockProps {
 
 export function CodeBlock({ code, filename, language = 'bash', className }: CodeBlockProps) {
   return (
-    <div className={cn('rrdu-code-block', className)}>
+    <div className={cn('rive-code-block', className)}>
       <Toolbar>
         <FileName language={language} filename={filename} />
         <Spacer />

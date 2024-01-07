@@ -15,11 +15,11 @@ export interface ToolButtonProps {
 export function ToolButton({ children, icon, color, className, style, onClick }: ToolButtonProps) {
   return (
     <a
-      className={classNames('rrdu-tool-button', 'rrdu-tool-button-' + color, className)}
+      className={classNames('rive-tool-button', 'rive-tool-button-' + color, className)}
       onClick={onClick}
       style={style}
     >
-      {icon && <span className="rrdu-tool-button-icon">{icon}</span>}
+      {icon && <span className="rive-tool-button-icon">{icon}</span>}
       {children}
     </a>
   );

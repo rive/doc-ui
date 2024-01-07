@@ -1,4 +1,4 @@
-.rrdu-tool-button {
+.rive-tool-button {
   font-size: 12px;
   display: block;
   border: 0;
@@ -8,20 +8,20 @@
   user-select: none;
 }
 
-.rrdu-tool-button:hover {
+.rive-tool-button:hover {
   background: rgba(0, 0, 0, 0.05);
 }
 
-.rrdu-tool-button:active {
+.rive-tool-button:active {
   background: rgba(0, 0, 0, 0.1);
 }
 
-.rrdu-tool-button svg {
+.rive-tool-button svg {
   width: 1.1em;
   height: 1.1em;
   margin: -0.1em 0.5em -0.1em 0;
 }
 
-.rrdu-tool-button-success {
-  color: var(--rrdu-color-success);
+.rive-tool-button-success {
+  color: var(--rive-color-success);
 }
