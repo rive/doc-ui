@@ -1,4 +1,4 @@
-import { CodeBlock, DemoBlock } from '@rive/react-doc-ui';
+import { CodeBlock, DemoBlock } from '@rive/doc-ui';
 
 export default function Demo() {
   return (

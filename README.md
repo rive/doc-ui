@@ -1,4 +1,4 @@
-# @rive/react-doc-ui
+# @rive/doc-ui
 
 React components to render document.
 
@@ -8,13 +8,13 @@ React components to render document.
 ## Install
 
 ```bash
-npm install --save @rive/react-doc-ui
+npm install --save @rive/doc-ui
 ```
 
 ## Usage
 
 ```jsx
-import { Playground } from '@rive/react-doc-ui';
+import { Playground } from '@rive/doc-ui';
 
 <Playground code="<div>Hello, World!</div>" />;
 ```
