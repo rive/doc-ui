@@ -2,6 +2,7 @@ import { Children, ComponentType } from 'react';
 import { CodeBlock } from './CodeBlock';
 import { CodeInline } from './CodeInline';
 import { DemoBlock } from './DemoBlock';
+import { Table } from './Table';
 
 export const components: Record<string, ComponentType> = {
   code: CodeInline,
@@ -15,4 +16,5 @@ export const components: Record<string, ComponentType> = {
       <CodeBlock language={language} code={code} {...props} />
     );
   },
+  table: Table,
 };

@@ -1,9 +1,12 @@
 :root {
   --rive-color-border: #d8d8d8;
   --rive-color-text: #333333;
+  --rive-color-content-bg: #ffffff;
   --rive-color-toolbar-bg: #f0f0f0;
   --rive-color-success: #198754;
   --rive-color-danger: #dc3545;
   --rive-color-danger-bg: #f3ccd0;
   --rive-font-family-code: ui-monospace, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
+
+  --rive-border-radius: 8px;
 }

@@ -1,0 +1,27 @@
+.rive-table {
+  border: 1px solid var(--rive-color-border);
+  border-radius: var(--rive-border-radius);
+  overflow: hidden;
+}
+
+.rive-table table {
+  border-collapse: collapse;
+  margin: -1px;
+  table-layout: fixed;
+  width: calc(100% + 2px);
+}
+
+.rive-table td,
+.rive-table th {
+  text-align: left;
+  border: 1px solid var(--rive-color-border);
+  padding: 4px 8px;
+}
+
+.rive-table th {
+  background-color: var(--rive-color-toolbar-bg);
+}
+
+.rive-table td {
+  background-color: var(--rive-color-content-bg);
+}

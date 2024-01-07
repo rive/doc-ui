@@ -43,3 +43,10 @@ const foobar = () => {
 ```jsx live
 <div style={{ color: 'red' }}>Hello, World!</div>
 ```
+
+## Table
+
+| Name | Description | Required | Default |
+| ---- | ----------- | -------- | ------- |
+| foo  | This is foo | false    | no      |
+| bar  | This is bar | true     | no      |
