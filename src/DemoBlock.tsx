@@ -8,7 +8,7 @@ import { Spacer } from './private/Spacer';
 import { Toolbar } from './private/Toobar';
 
 export interface DemoBlockProps {
-  device: 'desktop' | 'tablet' | 'mobile' | 'responsive';
+  device?: 'desktop' | 'tablet' | 'mobile' | 'responsive';
   language?: 'jsx' | 'tsx';
   filename?: string | undefined;
   code: string;

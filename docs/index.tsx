@@ -1,4 +1,3 @@
-import '@guoyunhe/prism-theme-github/github-light.css';
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import App from './App';

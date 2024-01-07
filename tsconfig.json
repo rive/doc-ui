@@ -2,6 +2,7 @@
   "extends": ["@tsconfig/vite-react/tsconfig.json", "@tsconfig/strictest/tsconfig.json"],
   "compilerOptions": {
     "checkJs": false,
+    "moduleResolution": "node",
     "paths": {
       "@rive/doc-ui": ["./src"]
     },
@@ -9,7 +10,8 @@
       "node",
       "jest",
       "@guoyunhe/react-lib-scripts/assets",
-      "@guoyunhe/react-lib-scripts/global"
+      "@guoyunhe/react-lib-scripts/global",
+      "./globals.d.ts"
     ]
   }
 }

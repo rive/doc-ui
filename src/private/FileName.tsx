@@ -11,7 +11,7 @@ export function FileName({ language, filename }: FileNameProps) {
     <span className="rive-file-name">
       {language && (
         <span className={cn('rive-file-name-icon', 'rive-file-name-icon-' + language)}>
-          {language === 'bash' ? '> _' : language}
+          {language === 'bash' ? '>_' : language}
         </span>
       )}
       <span className="rive-file-name-text">{filename}</span>

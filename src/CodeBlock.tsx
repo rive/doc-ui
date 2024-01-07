@@ -8,14 +8,21 @@ import { Spacer } from './private/Spacer';
 import { Toolbar } from './private/Toobar';
 
 export interface CodeBlockProps {
-  code: string;
+  code?: string;
+  children?: string;
   filename?: string;
   language?: string;
   className?: string;
   style?: CSSProperties;
 }
 
-export function CodeBlock({ code, filename, language = 'bash', className }: CodeBlockProps) {
+export function CodeBlock({
+  code,
+  children,
+  filename,
+  language = 'bash',
+  className,
+}: CodeBlockProps) {
   return (
     <div className={cn('rive-code-block', className)}>
       <Toolbar>
@@ -23,7 +30,11 @@ export function CodeBlock({ code, filename, language = 'bash', className }: Code
         <Spacer />
         <CopyButton code={code} />
       </Toolbar>
-      <Highlight theme={{ plain: {}, styles: [] }} code={code} language={language as Language}>
+      <Highlight
+        theme={{ plain: {}, styles: [] }}
+        code={code || children || ''}
+        language={language as Language}
+      >
         {({ tokens, getLineProps, getTokenProps, ...rest }) => (
           <pre {...rest}>
             {tokens.map((line, i) => (

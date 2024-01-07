@@ -13,6 +13,7 @@
   color: var(--rive-color-toolbar-bg);
   text-transform: uppercase;
   margin-right: 0.5em;
+  font-family: monospace;
 }
 
 .rive-file-name-icon-html {

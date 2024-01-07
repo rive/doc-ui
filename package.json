@@ -53,6 +53,7 @@
   },
   "devDependencies": {
     "@guoyunhe/react-lib-scripts": "^1.4.0",
+    "@mdx-js/react": "^3.0.0",
     "@testing-library/dom": "^9.3.3",
     "@testing-library/react": "^14.1.2",
     "@testing-library/user-event": "^14.5.2",
