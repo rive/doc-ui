@@ -1,11 +1,13 @@
+import { RiMacbookLine, RiSmartphoneLine, RiTabletLine } from '@remixicon/react';
 import cn from 'classnames';
-import { CSSProperties } from 'react';
+import { CSSProperties, useState } from 'react';
 import { LiveEditor, LiveError, LivePreview, LiveProvider } from 'react-live';
 import './DemoBlock.css';
 import { CopyButton } from './private/CopyButton';
 import { FileName } from './private/FileName';
 import { Spacer } from './private/Spacer';
 import { Toolbar } from './private/Toobar';
+import { ToolSelect } from './private/ToolSelect';
 
 export interface DemoBlockProps {
   device?: 'desktop' | 'tablet' | 'mobile' | 'responsive';
@@ -25,11 +27,21 @@ export function DemoBlock({
   className,
   style,
 }: DemoBlockProps) {
+  const [selectedDevice, setSelectedDevice] = useState('mobile');
   return (
     <div className={cn('rive-demo-block', className)} style={style}>
       <Toolbar>
         <FileName language={language} filename={filename} />
         <Spacer />
+        <ToolSelect
+          value={selectedDevice}
+          onChange={setSelectedDevice}
+          options={[
+            { value: 'mobile', label: 'Mobile', icon: <RiSmartphoneLine /> },
+            { value: 'tablet', label: 'Tablet', icon: <RiTabletLine /> },
+            { value: 'laptop', label: 'Laptop', icon: <RiMacbookLine /> },
+          ]}
+        />
         <CopyButton code={code} />
       </Toolbar>
       <LiveProvider

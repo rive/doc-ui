@@ -1,0 +1,9 @@
+.rive-select-dropdown {
+  position: absolute;
+  background-color: var(--rive-color-toolbar-bg);
+  display: none;
+}
+
+.rive-select-dropdown-open {
+  display: block;
+}
