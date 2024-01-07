@@ -1,4 +1,5 @@
 import { Children, ComponentType } from 'react';
+import { Alert } from './Alert';
 import { CodeBlock } from './CodeBlock';
 import { CodeInline } from './CodeInline';
 import { DemoBlock } from './DemoBlock';
@@ -17,4 +18,5 @@ export const components: Record<string, ComponentType> = {
     );
   },
   table: Table,
+  Alert: Alert,
 };

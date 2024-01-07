@@ -1,0 +1,23 @@
+.rive-alert {
+  border: 1px solid var(--rive-color-info);
+  border-radius: var(--rive-border-radius);
+  padding: var(--rive-padding-y) var(--rive-padding-x);
+  background-color: var(--rive-color-info-bg);
+  font-size: var(--rive-font-size);
+  margin-bottom: 1em;
+}
+
+.rive-alert-success {
+  border-color: var(--rive-color-success);
+  background-color: var(--rive-color-success-bg);
+}
+
+.rive-alert-warning {
+  border-color: var(--rive-color-warning);
+  background-color: var(--rive-color-warning-bg);
+}
+
+.rive-alert-error {
+  border-color: var(--rive-color-error);
+  background-color: var(--rive-color-error-bg);
+}

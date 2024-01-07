@@ -3,10 +3,19 @@
   --rive-color-text: #333333;
   --rive-color-content-bg: #ffffff;
   --rive-color-toolbar-bg: #f0f0f0;
-  --rive-color-success: #198754;
-  --rive-color-danger: #dc3545;
-  --rive-color-danger-bg: #f3ccd0;
+  --rive-color-success: #52c41a;
+  --rive-color-success-bg: #f6ffed;
+  --rive-color-info: #1677ff;
+  --rive-color-info-bg: #e6f4ff;
+  --rive-color-warning: #faad14;
+  --rive-color-warning-bg: #fffbe6;
+  --rive-color-error: #ff4d4f;
+  --rive-color-error-bg: #fff2f0;
+
+  --rive-font-size: 14px;
   --rive-font-family-code: ui-monospace, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
 
   --rive-border-radius: 8px;
+  --rive-padding-x: 8px;
+  --rive-padding-y: 4px;
 }

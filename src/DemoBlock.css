@@ -25,9 +25,9 @@
 
 .rive-demo-block-error {
   padding: 10px;
-  background: var(--rive-color-danger-bg);
+  background: var(--rive-color-error-bg);
   margin: 0;
-  color: var(--rive-color-danger);
+  color: var(--rive-color-error);
 }
 
 .rive-demo-block-editor {
