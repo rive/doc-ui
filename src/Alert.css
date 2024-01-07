@@ -5,6 +5,18 @@
   background-color: var(--rive-color-info-bg);
   font-size: var(--rive-font-size);
   margin-bottom: 1em;
+  display: flex;
+}
+
+.rive-alert-icon {
+  margin-right: var(--rive-padding-x);
+  color: var(--rive-color-info);
+}
+
+.rive-alert-icon svg {
+  display: block;
+  width: 20px;
+  height: 20px;
 }
 
 .rive-alert-success {
@@ -12,12 +24,24 @@
   background-color: var(--rive-color-success-bg);
 }
 
+.rive-alert-success .rive-alert-icon {
+  color: var(--rive-color-success);
+}
+
 .rive-alert-warning {
   border-color: var(--rive-color-warning);
   background-color: var(--rive-color-warning-bg);
 }
 
+.rive-alert-warning .rive-alert-icon {
+  color: var(--rive-color-warning);
+}
+
 .rive-alert-error {
   border-color: var(--rive-color-error);
   background-color: var(--rive-color-error-bg);
+}
+
+.rive-alert-error .rive-alert-icon {
+  color: var(--rive-color-error);
 }
