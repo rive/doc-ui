@@ -6,21 +6,27 @@
   margin-bottom: 1rem;
 }
 
-.rive-demo-block .prism-code {
-  margin: 0;
-  border-radius: 0;
-  padding: 8px 10px;
+.rive-demo-block-main {
+  overflow: hidden;
 }
 
 .rive-demo-block-preview {
-  border-bottom: 1px solid var(--rive-color-border);
+  margin: 0;
   padding: 10px;
   background: #f0f8ff;
-  margin: 0;
 }
 
 .rive-demo-block-preview-disable-padding {
   padding: 0;
+}
+
+.rive-demo-block-develop {
+  border-left: 1px solid var(--rive-color-border);
+  border-top: 1px solid var(--rive-color-border);
+  margin-left: -1px;
+  margin-top: -1px;
+  flex: 1 1 300px;
+  overflow: hidden;
 }
 
 .rive-demo-block-error {
@@ -32,4 +38,26 @@
 
 .rive-demo-block-editor {
   font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace !important;
+  overflow: auto;
+}
+
+.rive-demo-block-editor .prism-code {
+  margin: 0;
+  border-radius: 0;
+  padding: 8px 10px;
+  white-space: nowrap !important;
+}
+
+.rive-demo-block-mobile .rive-demo-block-main,
+.rive-demo-block-tablet .rive-demo-block-main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.rive-demo-block-mobile .rive-demo-block-preview {
+  flex: 0 1 360px;
+}
+
+.rive-demo-block-tablet .rive-demo-block-preview {
+  flex: 0 1 720px;
 }
