@@ -17,9 +17,9 @@
 }
 
 .rive-tool-button svg {
-  width: 1.1em;
-  height: 1.1em;
-  margin: -0.1em 0.5em -0.1em 0;
+  width: 16px;
+  height: 16px;
+  margin: -3px 2px -3px 0;
 }
 
 .rive-tool-button-success {
