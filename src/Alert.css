@@ -45,3 +45,11 @@
 .rive-alert-error .rive-alert-icon {
   color: var(--rive-color-error);
 }
+
+.rive-alert-main > *:first-child {
+  margin-top: 0;
+}
+
+.rive-alert-main > *:last-child {
+  margin-bottom: 0;
+}
