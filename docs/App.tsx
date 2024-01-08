@@ -5,8 +5,8 @@ import Demo from './Demo.mdx';
 
 export default function App() {
   return (
-    <MDXProvider>
-      <Demo components={components} />
+    <MDXProvider components={components}>
+      <Demo />
     </MDXProvider>
   );
 }
