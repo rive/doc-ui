@@ -6,12 +6,6 @@
     "paths": {
       "@rive/doc-ui": ["./src"]
     },
-    "types": [
-      "node",
-      "jest",
-      "@guoyunhe/react-lib-scripts/assets",
-      "@guoyunhe/react-lib-scripts/global",
-      "./globals.d.ts"
-    ]
+    "types": ["node", "jest", "@rive/doc-vite-plugin/globals"]
   }
 }
